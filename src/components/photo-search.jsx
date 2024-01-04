@@ -60,7 +60,7 @@ const PhotoGallery =()=>{
 
     const loadMore = () => {
         
-        setPage((prev) => prev+1)
+        setPage((prevPage) => prevPage+1)
     }
 
 
