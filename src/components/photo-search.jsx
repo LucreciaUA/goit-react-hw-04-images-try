@@ -32,7 +32,7 @@ const PhotoGallery =()=>{
             setIsLoading(true);
             const response = await getData(search, page);
             const newHits = images(response.hits);
-            setHits(prev => [...prev, ...newHits]);
+            setHits(prev => [...prev, ...newHits];
             //console.log(hits)
             setTotal(response.totalHits);
             //console.log(hits)
